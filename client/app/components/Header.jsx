@@ -20,9 +20,9 @@ const Header = () => {
                                             <li><Link href={'/'} className="font-primary font-semibold text-[15px] text-gray-600">Resources</Link></li>
                                     </ul>
                           </nav>
-                          <div className="">
-                                    <Link href={'/'}>Sign In</Link>
-                                    <Link href={'/'}>Sign Up</Link>
+                          <div className="flex gap-6">
+                                    <Link href={'/'} className="w-[120px] h-[45px] flex justify-center items-center text-sm font-primary font-semibold rounded-lg text-indigo-400 border-2 border-solid border-indigo-400">Sign In</Link>
+                                    <Link href={'/'} className="w-[120px] h-[45px] flex justify-center items-center text-sm font-primary font-semibold rounded-lg bg-indigo-500 text-white">Sign Up</Link>
                           </div>
               </div>
     </div>
