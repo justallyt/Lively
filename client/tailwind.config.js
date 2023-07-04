@@ -9,7 +9,12 @@ module.exports = {
     extend: {
           fontFamily: {
                  dmSans: 'var(--font-dm-sans)',
-                 primary: 'var(--font-red-hat-display)'
+                 primary: 'var(--font-red-hat-display)',
+                 boldish: ['Madera-Bold', 'sans-serif'],
+                 semiboldish: ['Madera-Extra', 'sans-serif']
+          },
+          backgroundImage: {
+                'hero-pattern': ''
           }
     },
   },
