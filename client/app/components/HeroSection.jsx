@@ -1,6 +1,6 @@
 import Header from "./Header"
 import Image from "next/image"
-import hero from "../../public/hero.jpg"
+import hero from "../../public/hero3.jpg"
 import Link from "next/link"
 import logo1 from "../../public/logos/intercom.png"
 import logo2 from "../../public/logos/square.png"
