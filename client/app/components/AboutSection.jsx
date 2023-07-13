@@ -16,7 +16,7 @@ const AboutSection = () => {
              <div className="py-24 w-[90%] mx-auto">
                         <div className="text-center">
                                   <h4 className="text-indigo-500 font-semiboldish">Solution</h4>
-                                  <h1 className="font-semiboldish my-5 text-5xl w-3/4 mx-auto">Delivering High Quality Customer Communication Experience</h1>
+                                  <h1 className="font-boldish my-5 text-5xl leading-[60px] w-3/4 mx-auto">Delivering High Quality Customer Communication Experience</h1>
                                   <p className="w-3/5 mx-auto text-lg font-primary my-5">The platform streamlines communication with customers by providing a realtime chat widget that businesses can embed on their websites, to link chats either whatsapp or text message.</p>
                         </div>
 
@@ -56,8 +56,8 @@ const AboutSection = () => {
                                              <div className="flex items-center">
                                                         <div>
                                                                    <h4 className="text-indigo-500 font-semiboldish">Workflow</h4>
-                                                                   <h1 className="font-boldish text-5xl mt-3 mb-5 block">See how Lively can help your business</h1>
-                                                                   <p className="text-lg w-11/12 my-5">There are more quantifiable reasons to choose Lively to propel your business to the next level by enabling you seamlessly integrate our chat solution with other tools for a streamlined workflow throughout your customer's entire buying journey. </p>
+                                                                   <h1 className="font-boldish text-5xl leading-[60px] mt-3 mb-5 block">See how Lively can help your business</h1>
+                                                                   <p className="text-lg font-primary w-11/12 my-5">There are more quantifiable reasons to choose Lively to propel your business to the next level by enabling you seamlessly integrate our chat solution with other tools for a streamlined workflow throughout your customer's entire buying journey. </p>
 
                                                                    <div className="grid grid-cols-2 gap-5 mb-8">
                                                                              <div>
@@ -78,7 +78,7 @@ const AboutSection = () => {
                                                                              </div>
                                                                    </div>
 
-                                                                   <div className="bg-indigo-100 p-8 rounded-xl">
+                                                                   <div className="bg-indigo-100/75 p-8 rounded-xl">
                                                                            <h3 className="font-semiboldish text-xl mb-3">Solid Engagement</h3>
                                                                            <p>Reach out to visitors proactively using personalized chatbot greetings. Turn website visits into sales opportunities.</p>
                                                                    </div>
