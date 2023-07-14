@@ -1,16 +1,16 @@
-import Header from "./Navbar/Header"
+import Header from "../Header"
 import Image from "next/image"
-import hero from "../../public/hero3.jpg"
+import hero from "../../../public/hero3.jpg"
 import Link from "next/link"
-import logo1 from "../../public/logos/intercom.png"
-import logo2 from "../../public/logos/square.png"
-import logo3 from "../../public/logos/mailchimp.png"
-import logo4 from "../../public/logos/discord.png"
-import logo5 from "../../public/logos/hellosign.png"
-import logo6 from "../../public/logos/pipedrive.png"
-import logo7 from '../../public/logos/attentive.jpg'
-import logo8 from "../../public/logos/dropbox.png"
-import logo9 from "../../public/logos/grammarly.png"
+import logo1 from "../../../public/logos/intercom.png"
+import logo2 from "../../../public/logos/square.png"
+import logo3 from "../../../public/logos/mailchimp.png"
+import logo4 from "../../../public/logos/discord.png"
+import logo5 from "../../../public/logos/hellosign.png"
+import logo6 from "../../../public/logos/pipedrive.png"
+import logo7 from '../../../public/logos/attentive.jpg'
+import logo8 from "../../../public/logos/dropbox.png"
+import logo9 from "../../../public/logos/grammarly.png"
 
 const logos = [
      { id: 0, image: logo1},
@@ -27,7 +27,7 @@ const HeroSection = () => {
   return (
     <section className="w-full  h-auto pb-20 bg-gradient-to-b from-indigo-100 via-purple-50 to-white">
               <Header />
-              <div className="w-[90%] xl:w-[1300px] mx-auto">
+              <div className="w-[90%] xl:w-[80%] mx-auto">
                       <div className="py-24">
                                    <div className="w-11/12 xl:w-[800px] mx-auto ">
                                                        <h1 className="font-semiboldish text-7xl text-center">Communicate quickly with your customers</h1>

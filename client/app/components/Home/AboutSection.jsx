@@ -1,17 +1,17 @@
 import Image from "next/image"
-import feature1 from "../../public/feature1.jpg"
-import feature2 from "../../public/feature2.jpg"
-import feature3 from "../../public/hero2.jpg"
-import workflow1 from "../../public/workflow1.jpg"
-import workflow2 from "../../public/workflow2.jpg"
-import workflow3 from "../../public/workflow3.jpg"
+import feature1 from "../../../public/feature1.jpg"
+import feature2 from "../../../public/feature2.jpg"
+import feature3 from "../../../public/hero2.jpg"
+import workflow1 from "../../../public/workflow1.jpg"
+import workflow2 from "../../../public/workflow2.jpg"
+import workflow3 from "../../../public/workflow3.jpg"
 import SimpleFaq from "./SimpleFaq"
-import { features } from "../data/features"
+import { features } from "../../data/features"
 const AboutSection = () => {
   return (
     <div className="">
              <div className="py-24 px-[10%] bg-violet-600">
-                     <h2 className=" font-semiboldish text-[55px] leading-[70px] text-white">We offer a wide range of features that are specifically designed to improve customer relationships, increase feedback efficiency, improve data management, communication and sales performance.</h2>
+                     <h2 className="text-center lg:text-left font-semiboldish text-[55px] leading-[70px] text-white">We offer a wide range of features that are specifically designed to improve customer relationships, increase feedback efficiency, improve data management, communication and sales performance.</h2>
              </div>
              <div className="py-24 w-[90%] mx-auto">
                         <div className="text-center">
@@ -20,9 +20,9 @@ const AboutSection = () => {
                                   <p className="w-3/5 mx-auto text-lg font-primary my-5">The platform streamlines communication with customers by providing a realtime chat widget that businesses can embed on their websites, to link chats either whatsapp or text message.</p>
                         </div>
 
-                         <div className="mt-16 grid grid-cols-2 gap-10">
+                         <div className="mt-16 grid lg:grid-cols-2 gap-10">
                                    <div className="flex items-center">
-                                        <div className="">
+                                        <div className="mx-auto">
                                                <h2 className="text-4xl font-boldish my-2">What's inside Lively</h2>
                                                <p className="text-base font-primary">The platform provides advanced features that enable businesses to get all the benefits of managed chat system.</p>
 
@@ -45,15 +45,15 @@ const AboutSection = () => {
                          </div>
 
                          <div className="pt-14 mt-14">
-                                   <div className="grid grid-cols-2 gap-10">
-                                             <div className="flex flex-col gap-5 items-center">
+                                   <div className="grid lg:grid-cols-2 gap-10">
+                                             <div className="flex flex-col gap-5 items-center order-2 lg:order-1">
                                                       <Image src={workflow1} className="object-cover  rounded-2xl" height={300} alt="Workflow Image" />
                                                       <div className="grid grid-cols-2 gap-5">
                                                                    <Image src={workflow2} className="object-cover max-h-[300px]  rounded-2xl"  alt="Workflow Image" />
                                                                    <Image src={workflow3} className="object-cover max-h-[300px]  rounded-2xl" alt="Workflow Image" />
                                                       </div>
                                              </div>
-                                             <div className="flex items-center">
+                                             <div className="flex items-center order-1 lg:order-2">
                                                         <div>
                                                                    <h4 className="text-indigo-500 font-semiboldish">Workflow</h4>
                                                                    <h1 className="font-boldish text-5xl leading-[60px] mt-3 mb-5 block">See how Lively can help your business</h1>

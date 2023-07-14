@@ -1,4 +1,4 @@
-import { testimonials } from "../data/testimonials"
+import { testimonials } from "../../data/testimonials"
 import { MdStar } from "react-icons/md"
 import Image from "next/image"
 import Link from "next/link"
@@ -11,7 +11,7 @@ const Testimonials = () => {
                                        <p className="text-lg w-11/12 mx-auto my-5">Discover how businesses like yours use Lively acquire engage, and support customers.</p>
                            </div>
 
-                           <div className="mt-10 grid grid-cols-3 gap-5 w-[85%] mx-auto [&>*:nth-child(4)]:col-start-3 [&>*:nth-child(4)]:row-start-1 [&>*:nth-child(3)]:col-start-2 [&>*:nth-child(3)]:mt-[-195px]">
+                           <div className="mt-10 grid lg:grid-cols-3 gap-5 w-[85%] mx-auto lg:[&>*:nth-child(4)]:col-start-3 lg:[&>*:nth-child(4)]:row-start-1 lg:[&>*:nth-child(3)]:col-start-2 lg:[&>*:nth-child(3)]:mt-[-195px]">
                                        { testimonials.map(kitu => 
                                             <div className="bg-gray-100 p-8 rounded-2xl h-max" key={kitu.id}>
                                                 <div className="flex gap-1 items-center mb-3">
