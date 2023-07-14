@@ -3,6 +3,8 @@ import Image from "next/image"
 import { BsEnvelope, BsSlack,BsTwitter } from "react-icons/bs"
 import { FaFacebookF } from "react-icons/fa"
 import {ImLinkedin } from "react-icons/im"
+import { AiFillInstagram } from "react-icons/ai"
+
 const Footer = () => {
   return (
     <footer>
@@ -53,13 +55,14 @@ const Footer = () => {
                                   </div>
                           </div>
               </div>
-              <div className="bg-indigo-950 py-7 px-10 flex justify-between">
+              <div className="bg-indigo-950 py-6 px-10 flex justify-between">
                        <p className="text-neutral-50 text-sm font-primary">&copy; { new Date().getFullYear() } Lively. All Rights Reserved.</p>
                        <div className="">
                                 <ul className="flex gap-8">
                                          <li><Link href={'/'} className="text-neutral-50"><FaFacebookF /></Link></li>
                                          <li><Link href={'/'} className="text-neutral-50"><BsTwitter /></Link></li>
                                          <li><Link href={'/'} className="text-neutral-50"><ImLinkedin /></Link></li>
+                                         <li><Link href={'/'} className="text-neutral-50"><AiFillInstagram /></Link></li>
                                 </ul>
                        </div>
               </div>

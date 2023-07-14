@@ -1,4 +1,4 @@
-import Header from "./Header"
+import Header from "./Navbar/Header"
 import Image from "next/image"
 import hero from "../../public/hero3.jpg"
 import Link from "next/link"
