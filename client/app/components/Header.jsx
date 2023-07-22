@@ -29,8 +29,8 @@ const Header = () => {
                                     </ul>
                           </nav>
                           <div className="hidden lg:flex gap-6">
-                                    <Link href={'/'} className="w-[120px] h-[45px] flex justify-center items-center text-sm font-primary font-semibold rounded-lg text-indigo-400 border-2 border-solid border-indigo-400">Sign In</Link>
-                                    <Link href={'/'} className="w-[120px] h-[45px] flex justify-center items-center text-sm font-primary font-semibold rounded-lg bg-indigo-500 text-white">Sign Up</Link>
+                                    <Link href={'/auth/login'} className="w-[120px] h-[45px] flex justify-center items-center text-sm font-primary font-semibold rounded-lg text-indigo-400 border-2 border-solid border-indigo-400">Sign In</Link>
+                                    <Link href={'/auth/signup'} className="w-[120px] h-[45px] flex justify-center items-center text-sm font-primary font-semibold rounded-lg bg-indigo-500 text-white">Sign Up</Link>
                           </div>
                           <span className="lg:hidden absolute right-10 cursor-pointer w-[40px] h-[40px] flex items-center justify-center bg-indigo-500 rounded-md text-white text-2xl" onClick={openSidebar}>
                                  <CgMenuRight />

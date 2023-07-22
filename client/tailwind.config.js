@@ -7,12 +7,15 @@ module.exports = {
   ],
   theme: {
     screens: {
+         'tiny': '580px',
+         'md': '800px',
          'lg': '1100px'
     },
     extend: {
           fontFamily: {
                  dmSans: 'var(--font-dm-sans)',
-                 primary: 'var(--font-red-hat-display)',
+                 primary: ['Madera-Regular', 'sans-serif'],
+                 lightened: ['Madera-Light', 'sans-serif'],
                  boldish: ['Madera-Bold', 'sans-serif'],
                  semiboldish: ['Madera-Extra', 'sans-serif']
           },

@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <div className="py-24 bg-slate-50">
                 <div className="w-[90%] mx-auto">
-                           <div className="w-[700px] mx-auto text-center">
+                           <div className="w-full md:w-[700px] mx-auto text-center">
                                        <h1 className="font-boldish text-5xl leading-[60px]">Customer Success is our Success</h1>
                                        <p className="text-lg w-11/12 mx-auto my-5">Discover how businesses like yours use Lively acquire engage, and support customers.</p>
                            </div>

@@ -30,11 +30,11 @@ const HeroSection = () => {
               <div className="w-[90%] xl:w-[80%] mx-auto">
                       <div className="py-24">
                                    <div className="w-11/12 xl:w-[800px] mx-auto ">
-                                                       <h1 className="font-semiboldish text-7xl text-center">Communicate quickly with your customers</h1>
+                                                       <h1 className="font-boldish md:font-semiboldish text-5xl  md:text-7xl text-center">Communicate quickly with your customers</h1>
                                                        <p className="my-8 font-primary text-lg text-center">An awesome & powerful software for small and medium-sized businesses giving them a simple, efficient and easy way to engage customer enquiries hence build stronger and fruitful relationships with customers.</p>
 
                                                        <div className="flex justify-center gap-8">
-                                                                 <Link href={'/'} className="bg-indigo-500 py-4 text-white px-10 rounded-lg">Get Started</Link>
+                                                                 <Link href={'/auth/signup'} className="bg-indigo-500 py-[18px] text-white px-10 rounded-lg">Get Started</Link>
                                                                  <Link href={'/'} className="py-4 px-10 border-2 border-indigo-100 text-indigo-500 rounded-lg">View Demo</Link>
                                                        </div>
                                    </div>

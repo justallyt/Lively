@@ -11,13 +11,13 @@ const AboutSection = () => {
   return (
     <div className="">
              <div className="py-24 px-[10%] bg-violet-600">
-                     <h2 className="text-center lg:text-left font-semiboldish text-[55px] leading-[70px] text-white">We offer a wide range of features that are specifically designed to improve customer relationships, increase feedback efficiency, improve data management, communication and sales performance.</h2>
+                     <h2 className="text-center lg:text-left font-semiboldish text-[45px] leading-[50px]md:text-[55px] md:leading-[70px] text-white">We offer a wide range of features that are specifically designed to improve customer relationships, increase feedback efficiency, improve data management, communication and sales performance.</h2>
              </div>
              <div className="py-24 w-[90%] mx-auto">
                         <div className="text-center">
                                   <h4 className="text-indigo-500 font-semiboldish">Solution</h4>
-                                  <h1 className="font-boldish my-5 text-5xl leading-[60px] w-3/4 mx-auto">Delivering High Quality Customer Communication Experience</h1>
-                                  <p className="w-3/5 mx-auto text-lg font-primary my-5">The platform streamlines communication with customers by providing a realtime chat widget that businesses can embed on their websites, to link chats either whatsapp or text message.</p>
+                                  <h1 className="font-boldish my-5 text-5xl leading-[60px] w-full md:w-3/4 mx-auto">Delivering High Quality Customer Communication Experience</h1>
+                                  <p className="w-4/5 md:w-3/5 mx-auto text-lg font-primary my-5">The platform streamlines communication with customers by providing a realtime chat widget that businesses can embed on their websites, to link chats either whatsapp or text message.</p>
                         </div>
 
                          <div className="mt-16 grid lg:grid-cols-2 gap-10">
